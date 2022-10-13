@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>converter graus</title>
+    <link rel="stylesheet"  href="style.css" media="screen" />
+    
+</head>
+<body>
+
+        <div class="container">
+            <h1>Conversor de temperatura legal do mateus</h1>
+                    <label for="graus">Digite a temperatura em graus celsius</label>
+                    <input type="number" name="graus" id="numero">
+            
+            <select id="selector">
+                <option value="0" selected disabled>Escolha uma opção</option>
+                <option value="°C">Celsius</option>
+                <option value="°F">Farenheit</option>
+                <option value="K">Kelvin</option>
+                <option value="R">Rankine</option>
+            </select>
+            <button type="submit" id="btn">Converte</button>
+        </div>
+
+        <div class="resultado">
+            <table id="table">
+                <thead>
+                    <tr>
+                    <th>°C</th>
+                    <th>°F</th>
+                    <th>K</th>
+                    <th>R</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
